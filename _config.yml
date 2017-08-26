@@ -68,7 +68,7 @@ deploy:
   type: git
   repo: git@github.com:tangciwei/tangciwei.github.io.git
   branch: master
-  message: init
+  message: ceshi
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
