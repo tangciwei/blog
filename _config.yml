@@ -66,9 +66,9 @@ pagination_dir: page
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:tangciwei/tangciwei.github.io.git
+  repo:  git@github.com:tangciwei/tangciwei.github.io.git
   branch: master
-  message: xinzeng
+  message: wenzhang
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
