@@ -9,7 +9,7 @@ description: 唐词伟的个人博客
 author: tangciwei
 language:
 timezone:
-keywords: "前端,js,jquery,javascript,html5,开发者,程序猿,程序媛,极客,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,html,css,css3,用户体验"
+keywords: "前端,nodejs,js,javascript,vue,vue源码,html5,开发者,程序猿,编程,开源,IT网站,Developer,Programmer,Coder,Geek,html,css,css3,用户体验"
 
 
 # URL
@@ -68,7 +68,7 @@ deploy:
   type: git
   repo:  git@github.com:tangciwei/tangciwei.github.io.git
   branch: master
-  message: wenzhang
+  message: init
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
@@ -92,3 +92,14 @@ jsonContent:
     excerpt: false
     categories: false
     tags: true
+# markdown
+markdown_it_plus:
+    highlight: true
+    html: true
+    xhtmlOut: true
+    breaks: true
+    langPrefix:
+    linkify: true
+    typographer:
+    quotes: “”‘’
+    pre_class: highlight    
