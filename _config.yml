@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 唐词伟的个人博客
+title: tangciwei's Blog
 subtitle: 记录沿途风景
 description: 唐词伟的个人博客
 author: tangciwei
@@ -73,7 +73,8 @@ deploy:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia
+# theme: yilia
+theme: even
 jsonContent:
   meta: false
   pages: false
